@@ -1,41 +1,40 @@
 @font-face {
     font-family: "Circular-Black";
-    src: url('../fonts/lineto-circular-black.ttf') format("truetype");
-  }
-  @font-face {
-    font-family: "Circular-Book";
-    src: url('../fonts/lineto-circular-pro-book.ttf') format("truetype");
-  }
-
-h1{
-    font-family: "Circular-Black", Helvetica, Arial, serif;
-    
-    color: rgba(29,185,83,1.0);
-    
+    src: url('./fonts/lineto-circular-black.ttf') format("truetype");
 }
 
-h2{
+@font-face {
+    font-family: "Circular-Book";
+    src: url('./fonts/lineto-circular-pro-book.ttf') format("truetype");
+}
+
+h1 {
+    font-family: "Circular-Black", Helvetica, Arial, serif;
+    color: rgba(29, 185, 83, 1.0);
+}
+
+h2 {
     font-family: "Circular-Black", Helvetica, Arial, serif;
     color: white;
 }
 
-p{
+p {
     font-family: "Circular-Book", Helvetica, Arial, serif;
     color: white;
 }
 
-body{
+body {
     background-image: url(background.svg);
     overflow-y: scroll;
 }
 
-#topBar{
+#topBar {
     width: 100%;
     height: 90px;
     margin-bottom: 150px;
 }
 
-#topBar p{
+#topBar p {
     font-family: "Circular-Black", Helvetica, Arial, serif;
     font-size: 20px;
     margin-left: auto;
@@ -45,7 +44,7 @@ body{
     line-height: 90px;
 }
 
-#intro-container{
+#intro-container {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -53,18 +52,18 @@ body{
     margin-bottom: 300px;
 }
 
-#intro-container h1{
+#intro-container h1 {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     font-size: 60px;
 }
 
-#green-logo{
-    color: rgba(29,185,83,1.0);
+#green-logo {
+    color: rgba(29, 185, 83, 1.0);
 }
 
-#intro-container p{
+#intro-container p {
     width: 80%;
     font-size: 20px;
     margin-left: auto;
@@ -74,10 +73,10 @@ body{
     margin-bottom: 20px;
 }
 
-#get-started-button{
+#get-started-button {
     font-family: "Circular-Black", Helvetica, Arial, serif;
     color: white;
-    background-color: rgba(29,185,83,1.0);
+    background-color: rgba(29, 185, 83, 1.0);
     font-size: 20px;
     border: none;
     width: 200px;
@@ -85,14 +84,13 @@ body{
     border-radius: 50px;
     margin-right: 10px;
     transition: all .4s ease-in-out;
-
 }
 
-#get-started-button:hover{
+#get-started-button:hover {
     transform: scale(1.1);
 }
 
-#support-us-button{
+#support-us-button {
     font-family: "Circular-Black", Helvetica, Arial, serif;
     color: black;
     background-color: white;
@@ -103,44 +101,41 @@ body{
     border-radius: 50px;
     margin-left: 10px;
     transition: all .4s ease-in-out;
-
-
 }
 
-#support-us-button:hover{
+#support-us-button:hover {
     transform: scale(1.1);
-
 }
 
-#how-it-works{
+#how-it-works {
     width: 100%;
 }
 
-#how-it-works h1{
-    width: 20%;
+#how-it-works h1 {
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
 
-.container{
+.container {
     color: white;
 }
 
-#unit{
+#unit {
     padding: 40px;
 }
 
-#unit p{
+#unit p {
     font-size: 22px;
     line-height: 34px;
 }
 
-#footer{
+#footer {
     height: 100px;
 }
 
-#footer p{
+#footer p {
     line-height: 100px;
     color: white;
     text-align: center;
@@ -149,15 +144,13 @@ body{
     width: 40%;
 }
 
-@media screen and (max-width: 800px) { 
-
-    #topBar{
+@media screen and (max-width: 800px) {
+    #topBar {
         width: 100%;
         height: 90px;
         margin-bottom: 150px;
     }
-    
-    #topBar p{
+    #topBar p {
         font-family: "Circular-Black", Helvetica, Arial, serif;
         font-size: 20px;
         margin-left: auto;
@@ -166,27 +159,23 @@ body{
         width: 100%;
         line-height: 90px;
     }
-    
-    #intro-container{
+    #intro-container {
         width: 80%;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
         margin-bottom: 200px;
     }
-    
-    #intro-container h1{
+    #intro-container h1 {
         width: 100%;
         margin-left: auto;
         margin-right: auto;
         font-size: 40px;
     }
-    
-    #green-logo{
-        color: rgba(29,185,83,1.0);
+    #green-logo {
+        color: rgba(29, 185, 83, 1.0);
     }
-    
-    #intro-container p{
+    #intro-container p {
         width: 90%;
         font-size: 15px;
         margin-left: auto;
@@ -195,11 +184,10 @@ body{
         line-height: 34px;
         margin-bottom: 20px;
     }
-    
-    #get-started-button{
+    #get-started-button {
         font-family: "Circular-Black", Helvetica, Arial, serif;
         color: white;
-        background-color: rgba(29,185,83,1.0);
+        background-color: rgba(29, 185, 83, 1.0);
         font-size: 20px;
         border: none;
         width: 250px;
@@ -208,14 +196,11 @@ body{
         margin-bottom: 15px;
         border-radius: 50px;
         transition: all .4s ease-in-out;
-    
     }
-    
-    #get-started-button:hover{
+    #get-started-button:hover {
         transform: scale(1.1);
     }
-    
-    #support-us-button{
+    #support-us-button {
         font-family: "Circular-Black", Helvetica, Arial, serif;
         color: black;
         background-color: white;
@@ -226,45 +211,33 @@ body{
         border-radius: 50px;
         transition: all .4s ease-in-out;
         margin-left: 0px;
-
-    
-    
     }
-    
-    #support-us-button:hover{
+    #support-us-button:hover {
         transform: scale(1.1);
-    
     }
-    
-    #how-it-works{
+    #how-it-works {
         width: 100%;
     }
-    
-    #how-it-works h1{
+    #how-it-works h1 {
         width: 80%;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
     }
-    
-    .container{
+    .container {
         color: white;
     }
-    
-    #unit{
+    #unit {
         padding: 40px;
     }
-    
-    #unit p{
+    #unit p {
         font-size: 22px;
         line-height: 34px;
     }
-    
-    #footer{
+    #footer {
         height: 50px;
     }
-    
-    #footer p{
+    #footer p {
         font-size: 12px;
         line-height: 50px;
         color: white;
@@ -273,14 +246,4 @@ body{
         margin-right: auto;
         width: 90%;
     }
-
-
-
-
 }
-
-
-
-
-
-
